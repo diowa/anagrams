@@ -1,6 +1,6 @@
 # Anagrams
 
-Sinatra application to create anagrams of words.
+Sinatra application to create anagrams from words.
 
 Example
 
