@@ -18,4 +18,4 @@ GET /tree,last's
 
 Deployed on Heroku:
 
-https://diowa-anagrams.herokuapp.com/tree,last's
+https://diowa-anagrams.herokuapp.com/tree
