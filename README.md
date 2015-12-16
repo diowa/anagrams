@@ -14,4 +14,8 @@ GET /tree,none
 
 GET /tree,last's
 
-{"tree":["reet","reet","teer"],"last":["salt","slat"]}
+{"tree":["reet","teer"],"last":["salt","slat"]}
+
+Deployed on Heroku:
+
+https://diowa-anagrams.herokuapp.com/tree,last's
