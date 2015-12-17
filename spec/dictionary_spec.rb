@@ -5,7 +5,7 @@ describe Dictionary do
 
   describe '.initialize' do
     it 'loads the dictionary' do
-      expect(dictionary.instance_variable_get(:@words_hash)).to_not be nil
+      expect(dictionary.instance_variable_get(:@words_hash).size).to eq 220676
     end
   end
 
