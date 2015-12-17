@@ -16,13 +16,13 @@ describe Dictionary do
       end
     end
 
-    context "with two word" do
+    context "with two words" do
       it "returns { 'word1' => ['anagram1', 'anagram2], 'word2' => ['anagram1', 'anagram2] }" do
         expect(dictionary.anagrams("tree, none")).to eq({ "tree" => ["reet", "teer"], "none" => ["neon"] })
       end
     end
 
-    context "with two word, one containing apostrophe" do
+    context "with two words, one containing apostrophe" do
       it "returns { 'word1' => ['anagram1', 'anagram2], 'word2' => ['anagram1', 'anagram2] }" do
         expect(dictionary.anagrams("tree, last's")).to eq({ "tree" => ["reet", "teer"], "last" => ["salt", "slat"] })
       end
