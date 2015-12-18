@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/json'
+require './lib/dictionary'
 
 set :dictionary, Dictionary.new
 
